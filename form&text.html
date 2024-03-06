@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表單/輸入框</title>
+</head>
+<body>
+    <h1>單行表單</h1>
+    <form action="" method="post">
+        <label for="username">暱稱</label>
+        <input type="text" id="username">
+        <br>
+        <label for="email">信箱</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="password">密碼</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <input type="submit" value="提交">
+    </form>
+    <br><br><br>
+    <h1>表單-數字和日期</h1>
+    <h2>日期</h2>
+    <form action="">
+        <label for="date">選定日期</label>
+        <input type="date" name="date" id="date">
+        <br>
+        <label for="number">選擇天數</label>
+        <input type="number" name="number" id="number" min="1" max="7">
+        <br>
+        <input type="submit" value="提交">
+    </form>
+    <br><br><br>
+    <h1>多行文字輸入框</h1>
+    <form action="">
+        <label for="textarea">留言板</label>
+        <br>
+        <textarea name="textarea" id="textarea" cols="35" rows="15"></textarea>
+        <br>
+        <input type="submit" value="提交">
+    </form>
+    <br><br><br>
+    <h1>單選/多選表單</h1>
+    <h2>單選 radio button</h2>
+    <label for="">
+        <input type="radio" name="Q1" value="yes">
+        是
+    </label>
+    <label for="">
+        <input type="radio" name="Q1" value="no">
+        否
+    </label>
+    <br><br><br>
+    <h2>多選 checkbox</h2>
+    <h3>你喜歡甚麼運動?</h3>
+    <form action="">
+        <input type="checkbox" name="sports" id="">
+        <label for="">籃球</label>
+        <input type="checkbox" name="sports" id="">
+        <label for="">羽球</label>
+        <input type="checkbox" name="sports" id="">
+        <label for="">足球</label>
+        <br><br>
+        <input type="submit" value="提交">
+    </form>
+    <br><br><br>
+    <h1>下拉式選單</h1>
+    <h2>請選擇一個程式</h2>
+    <form action="">
+        <select name="" id="">
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="C#">C#</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="PHP">PHP</option>
+        </select>
+        <br><br>
+        <input type="submit" value="送出">
+    </form>
+    <br><br><br><br><br><br><br><br><br>
+</body>
+</html>
