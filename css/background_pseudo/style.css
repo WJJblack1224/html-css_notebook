@@ -1,0 +1,70 @@
+body{
+    background-image: url(./img/autumn.jpg);
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 30px;
+}
+a{
+    font-size: 20px;
+}
+a:link{
+    color:rgb(24, 169, 116);
+}
+/* 看過的連結會變色 */
+a:visited{
+    color:rgb(238, 239, 216);
+}
+/* 滑鼠移到上面會變色 */
+a:hover{
+    color:rgb(10, 88, 179);
+}
+/* 點擊時會變色 */
+a:active{
+    color:rgb(243, 183, 74);
+}
+/* 以上兩個常用到 */
+li{
+    font-size: 20px;
+}
+li:hover{
+    background-color: rgb(192, 40, 184);
+}
+li:not(:hover){
+    color:rgb(95, 6, 77);
+}
+/* 偽元素 */
+h1::first-letter{
+   color: rgb(10, 173, 173);
+}
+h2::first-letter{
+   color: rgb(234, 109, 59);
+}
+p::first-line{
+    background-color:rgb(174, 10, 163);
+    font-style: italic;
+    font-size: 50px;
+}
+p::selection{
+    background-color: #0da2cb;
+}
+.food{
+    color: aliceblue;
+}
+.food:before{
+    content: "義大利的";
+}
+#pizza:after{
+    content: " 正宗!";
+    background-color: rgb(174, 10, 163);
+    color:aliceblue
+}
+li::marker{
+    content: " ";
+}

@@ -1,0 +1,44 @@
+h2{
+    color: rgb(222, 172, 78);
+}
+#content li{
+    color: #06a86f;
+}
+/* 子節點 */
+.box > p{
+    color: blueviolet;
+}
+/* 孫節點 */
+.box > div > p{
+    color: red;
+}
+/* 鄰居選擇器 */
+.box > div > p + span{
+    color: chocolate;
+}
+/* 屬性選擇器 */
+span[class]{
+    color: rgb(214, 114, 131);
+}
+a[title]{
+    color: red;
+}
+a[class]{
+    color: rgb(28, 105, 4);
+}
+/* 以連結結尾篩選 */
+a[href$=".pdf"]{
+    color: rgb(65, 65, 210);
+}
+/* 以連結開頭篩選 */
+a[href^="http:"]{
+    color: rgb(170, 6, 170);
+}
+/* 第一個子元素 */
+article p:first-child{
+    color: #06a86f;
+}
+/* 最後子元素 */
+article p:last-child{
+    color: #b83737;
+}

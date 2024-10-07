@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    height: 200vh;
+    background-color: #a9e1f4;
+    position:relative;
+}
+.box{
+    min-width: 25%;
+    max-width: 50%;
+    height: 100px;
+    border: 3px solid #0c1118;
+    float:left
+}
+.item{
+    width: 50px;
+    height: 50px;
+    border: 5px solid #eb8f43;
+    margin-bottom: 30px;
+}
+.item1{
+    position:absolute;
+    top:5px;
+    right: 100px;
+}
+.item7{
+    position:fixed;
+    top:300px;
+    right: 100px;
+}
+.item3{
+    position:sticky;
+    top:200px;
+}

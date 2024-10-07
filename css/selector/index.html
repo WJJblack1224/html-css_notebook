@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>後代選擇器/鄰居選擇器/屬性選擇器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>後代節點</h2>
+    <div id="content">
+        <li>後代節點</li>
+        <li>後代節點</li>
+        <li>後代節點</li>
+        <li>後代節點</li>
+        <li>後代節點</li>
+        <li>後代節點</li>
+    </div>
+    <h2>子節點/孫節點</h2>
+    <div class="box">
+        <p>子節點</p>
+        <div >
+            <p>孫節點</p>
+            <span>鄰居</span>
+            <br><br>
+            <span>不是鄰居</span>
+        </div>
+        <div >
+            <p>孫節點</p>
+            <span>鄰居</span>
+            <br><br>
+            <span>不是鄰居</span>
+        </div>
+    </div>
+    <div class="box"></div>
+    <h2>屬性選擇器</h2>
+    <span class="title">標題</span>
+    <span >內容</span>
+    <span class="title">標題</span>
+    <span >內容</span>
+    <span class="title">標題</span>
+    <span >內容</span>
+    <br><br><br>
+    <a href="" title="red">這是紅色的連結</a>
+    <a href="" class="a">這是綠色的連結</a>
+    <br>
+    <a href="file.pdf" class="a">這是藍色的連結</a>
+    <a href="http:example.com" class="a">這是紫色的連結</a>
+    <h2>第一子元素與最後子元素</h2>
+    <article>
+        <p>段落FIRST</p>
+        <p>段落2ND</p>
+        <p>段落3RD</p>
+        <p>段落4TH</p>
+        <p>段落5TH</p>
+        <p>段落END</p>
+    </article>
+</body>
+</html>

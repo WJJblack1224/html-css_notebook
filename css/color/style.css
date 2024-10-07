@@ -1,0 +1,19 @@
+div{
+    color:gold;
+}
+#p1{
+    /* RGB表示 */
+    color:rgb(100,200,300);
+}
+#p2{
+    /* 16進制 */
+    color:#FFF0FF;
+    background-color: #000;
+}
+#p3{
+    /* HSL */
+    /* H:色調 */
+    /* S:飽和度 */
+    /* L:亮度 */
+    color:hsl(35, 83%, 64%);
+}

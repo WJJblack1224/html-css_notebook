@@ -1,0 +1,16 @@
+#box1{
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    overflow: auto;
+}
+#box2{
+    display: inline;
+}
+span{
+    display: block;
+}
+#p2{
+    display:inline-block;
+    width: 200px; 
+}

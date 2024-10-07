@@ -1,0 +1,49 @@
+@font-face{
+    font-family: 'Bungee Spice';
+    src:url('./fontz/BungeeSpice-Regular.ttf')
+}
+h1{
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    font-weight: 200;
+}
+h2{
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: blueviolet;
+    border-radius: 10px; */
+    /* 簡寫 */
+    border: solid 3px blueviolet;
+    border-radius: 10px;
+}
+#post2{
+    border-style: dashed;
+    border-width: 3px;
+    border-color: red;
+
+}
+#post3{
+    color: rgb(118, 11, 95);
+    text-shadow: 3px 3px 6px #e69d2f;
+}
+#p1{
+    background-color: #8febb7;
+    box-shadow: 2px 2px 6px;
+}
+#box1{
+    background-color: #f0b9f0;
+    color: rgb(118, 11, 95);
+    box-shadow: 2px 2px 6px;
+    border-radius: 6px;
+}
+#box2{
+    background-color: #f2ebc4;
+    color: rgb(152, 95, 4);
+    box-shadow: 2px 2px 6px;
+    border-radius: 6px;
+}

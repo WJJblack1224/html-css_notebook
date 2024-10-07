@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(41, 180, 239);
+    display: flex;
+    justify-content: center;
+}
+.panel{
+    background-color: white;
+    width: 300px;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.input_area{
+    display: flex;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.text_input{
+    flex-grow: 1;
+    border: none;
+    background-color: rgb(247, 243, 236);
+    padding: 10px 15px;
+    outline: none;
+}
+.button{
+    background-color: rgb(77, 149, 231);
+    border:none;
+    color:white;
+    padding: 10px 15px;
+    cursor:pointer;
+}
+.check_list{
+    list-style-type: none;
+    padding: 0;
+}
+.check_list li{
+    display: flex;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+.check_list label{
+    flex-grow: 1;
+}
+.check_box{
+    margin-right: 15px;
+}
+.garbage_can{
+    border: none;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.garbage_can:hover{
+    opacity: 1;
+}

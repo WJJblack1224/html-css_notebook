@@ -1,0 +1,17 @@
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+    margin-bottom: 30px;
+    border: 2px solid black;
+    padding:10px 10px 10px 10px ;
+          /* 上   右   下   左    順時針*/
+}
+.text{
+    margin:30px;
+    border: 3px solid black;
+    /* padding: 10px 20px 10px 20px;  可簡化為*/
+    padding: 10px 20px;
+    /* 如果4個方向都一樣 可以只寫一個 */
+    /* padding: 10px; */
+}
